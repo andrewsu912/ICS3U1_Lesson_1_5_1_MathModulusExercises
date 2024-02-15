@@ -19,7 +19,7 @@ class Cos3rd extends ConsoleProgram {
     dblAngleC = readDouble("Enter angle of C: ");
 
     //Calculations
-    dblSideC = Math.sqrt((Math.pow(dblSideA,2) + Math.pow(dblSideB,2)) - (2*dblSideA*dblSideB*Math.cos(Math.toRadians(dblAngleC))))3
+    dblSideC = Math.sqrt((Math.pow(dblSideA,2) + Math.pow(dblSideB,2)) - (2*dblSideA*dblSideB*Math.cos(Math.toRadians(dblAngleC))));
     ;
     
     //Output
