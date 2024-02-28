@@ -2,6 +2,7 @@ class Rads extends ConsoleProgram {
 
   /**
   * Description
+  Dont forget description and Author
   * @author:
   */
   
@@ -15,6 +16,7 @@ class Rads extends ConsoleProgram {
     dblDegree = readDouble("Enter the degree: ");
     
     //Calculate
+    // Spaces after "//"
     dblRadian = Math.toRadians(dblDegree);
 
     //Output

@@ -10,9 +10,10 @@ class Hours extends ConsoleProgram {
     // Declare Variables
     int intTotalHours;
     int intDays;
-    int intHours;
+    int intHours; // Better variable name, such as intLeftOverHours
 
     //Prompt the Viewer
+    // Space after double line for comments
     intTotalHours = readInt("Enter the total hours: ");
 
     //Calculations

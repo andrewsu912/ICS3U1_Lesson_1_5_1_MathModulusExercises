@@ -2,6 +2,7 @@ class Minutes extends ConsoleProgram {
 
   /**
   * Description
+  Dont forget Description
   * @author:
   */
   
@@ -11,9 +12,10 @@ class Minutes extends ConsoleProgram {
     int intTotalMinutes;
     int intDays;
     int intHours;
-    int intMinutes;
+    int intMinutes; // Better variable name such as intLeftOverMinutes
 
     //Prompt the Viewer
+    // Spaces after "//"
     intTotalMinutes = readInt("Enter the total Minutes: ");
 
     //Calculations

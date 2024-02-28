@@ -6,12 +6,13 @@ class FtoC extends ConsoleProgram {
   */
   
   public void run() {
-    // Hi ANdrewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  
   // Declare Variables
   double dblFahrenheit;
   double dblCelsius;
 
   //Prompt the Viewer
+  // Add space after the double line for comments
   dblFahrenheit = readDouble("Enter the temperature in fahrenheit: ");
 
   //Calculations

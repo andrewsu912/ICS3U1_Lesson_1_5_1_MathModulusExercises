@@ -2,6 +2,7 @@ class Cos3rd extends ConsoleProgram {
 
   /**
   * Description
+  Add a description and author
   * @author:
   */
   
@@ -14,6 +15,7 @@ class Cos3rd extends ConsoleProgram {
     double dblAngleC;
 
     //Prompt the Viewer
+    // Add a space after comments
     dblSideA = readDouble("Enter the length of Side A: ");
     dblSideB = readDouble("Enter the length of Side B: ");
     dblAngleC = readDouble("Enter angle of C: ");

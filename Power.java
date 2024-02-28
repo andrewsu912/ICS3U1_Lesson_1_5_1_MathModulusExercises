@@ -2,6 +2,7 @@ class Power extends ConsoleProgram {
 
   /**
   * Description
+  Dont forget Description and author
   * @author:
   */
   
@@ -13,6 +14,7 @@ class Power extends ConsoleProgram {
   double dblFinalAns;
 
   //Prompt the Viewer
+  // Spaces after "//"
   dblBaseA = readDouble("Enter the base of your number: ");
   dblExponentB = readDouble("Enter the exponent of your number: ");
 
